@@ -1,0 +1,23 @@
+p{
+    padding-top: 5px;
+    padding-right: 70px;
+    padding-bottom: 5px;
+    padding-left: 70px;
+    font-size: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+pre{
+    tab-size: 6;
+}
+
+table{
+    padding-top: 5px;
+    padding-right: 70px;
+    padding-bottom: 5px;
+    padding-left: 70px;
+    font-size: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}

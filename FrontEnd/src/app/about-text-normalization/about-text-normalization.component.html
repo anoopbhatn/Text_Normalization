@@ -1,0 +1,96 @@
+
+<p>
+    In speech-applications such as text-to-speech (TTS) or automatic speech recognition
+    (ASR), text normalization refers to the task of converting from a written representation
+    into a representation of how the text is to be spoken. In all real-world speech applications,
+    the text normalization engine is developed in large part—by hand.
+</p>
+<p>
+    As many of us can attest, learning another language is tough. Picking up on nuances like
+    slang, dates and times, and local expressions, can often be a distinguishing factor between
+    proficiency and fluency. This challenge iseven more difficult for a machine.
+    Many speech and language applications, including text-to-speech synthesis (TTS) and
+    automatic speech recognition (ASR), require text to be converted from written
+    expressions into appropriate "spoken" forms. This is a process known as text
+    normalization, and helps convert 12:47 to "twelve forty-seven" and $3.16 into "three
+    dollars, sixteen cents."
+</p>
+<p>
+    However, one of the biggest challenges when developing a TTS or ASR system for a new
+    language is to develop and test the grammar for all these rules, a task that requires quite a
+    bit of linguistic sophistication and native speaker intuition.
+    <br/><br/>
+    An example :
+    <br/><br/>
+    To lay the groundwork for discussion let us consider a simple example such as the
+    following:
+    <br/><br/>
+    <b>A baby giraffe is 6 ft tall and weighs 150 lb.</b> 
+    <br/><br/>
+</p>
+<p>
+    If one were to ask a speaker of English to read this sentence, or if one were to feed it to an
+    English TTS ( Text To Speech ) system one would expect that it to be read more or less as
+    follows:
+</p>
+<br/>
+
+<table border="0" align="center">
+        <tr>
+            <td>a</td>
+            <td>--></td>
+            <td>&nbsp;&nbsp;(self)</td>
+        </tr>
+        <tr>
+            <td>baby</td>
+            <td>--></td>
+            <td>&nbsp;&nbsp;(self)</td>
+        </tr>
+        <tr>
+            <td>giraffe</td>
+            <td>--></td>
+            <td>&nbsp;&nbsp;(self)</td>
+        </tr>
+        <tr>
+            <td>is</td>
+            <td>--></td>
+            <td>&nbsp;&nbsp;(self)</td>
+        </tr>
+        <tr>
+            <td>6ft</td>
+            <td>--></td>
+            <td>&nbsp;&nbsp;six feet</td>
+        </tr>
+        <tr>
+            <td>tall</td>
+            <td>--></td>
+            <td>&nbsp;&nbsp;(self)</td>
+        </tr>
+        <tr>
+            <td>and</td>
+            <td>--></td>
+            <td>&nbsp;&nbsp;(self)</td>
+        </tr>
+        <tr>
+            <td>weighs</td>
+            <td>--></td>
+            <td>&nbsp;&nbsp;(self)</td>
+        </tr>
+        <tr>
+            <td>150lb</td>
+            <td>--></td>
+            <td>&nbsp;&nbsp;one hundred <br/> &nbsp;&nbsp; fifty pounds</td>
+        </tr>
+</table>
+<br/>
+
+<p>
+    In the original written form there are two non-standard words, namely the two measure
+    expressions 6ft and 150lb. In order to read the text, each of these must be normalized into
+    a sequence of ordinary words. In this case both examples are instances of the same
+    semiotic class, namely measure phrases. But in general texts may include non-standard
+    word sequences from a variety of different semiotic classes, including measures, currency
+    amounts, dates, times, telephone numbers, cardinal or ordinal numbers, fractions, among
+    many others. Each of these involves a specific function mapping between the written
+    input form and the spoken output form.
+</p>

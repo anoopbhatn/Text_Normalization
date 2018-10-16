@@ -1,0 +1,26 @@
+<!-- <button type="button" class="btn btn-primary buttonStyle" (click)="something()">Click here to get results</button> -->
+
+<div class="container">
+    <div class="row" *ngFor="let item of data">
+        <br/>
+        <br/>
+        <div class="col-xs-12 col-sm-12 col-lg-6">
+            {{item.before}}
+        </div>
+        <div class="col-xs-12 col-sm-12 col-lg-4">
+            <audio controls>
+                <source src="{{item.speech}}" type="audio/mpeg"> Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-lg-2">
+            <button type="button" class="btn btn-primary buttonStyle">
+                <a href="{{item.speech}}" class="download" download>Download</a>
+            </button>
+            <br/>
+            <br/>
+        </div>
+        <hr>
+    </div>
+
+    <br/>
+</div>

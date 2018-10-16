@@ -1,0 +1,13 @@
+address
+cardinal
+date
+decimal
+digit
+fraction
+letters
+measure
+money
+ordinal
+telephone
+time
+verbatim

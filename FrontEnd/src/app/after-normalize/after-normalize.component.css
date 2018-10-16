@@ -1,0 +1,20 @@
+.buttonStyle{
+    width: 125px;
+    height: 35px;
+    font-size: 10px;
+}
+
+.download{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.modal-dialog{
+    position: relative;
+    display: table; /* This is important */ 
+    overflow-y: auto;    
+    overflow-x: auto;
+    width: auto;
+    min-width: 300px;   
+}
